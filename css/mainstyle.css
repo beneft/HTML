@@ -48,7 +48,7 @@ body{
     text-shadow: 1px 1px black;
     font-family: monospace;
     letter-spacing: 18px;
-    margin-bottom: -20vh;
+    margin-bottom: -20%;
 }
 .title,.subtitle{
     position: absolute;
@@ -60,7 +60,6 @@ main{
 .opener{
     color:white;
     border: 2px mediumaquamarine ridge;
-    max-height: 75vh;
     width: 100%;
     display: inline-block;
     font-family: "Segoe UI Light",monospace;
@@ -74,13 +73,12 @@ article{
     background:rgba(140, 140, 140,0.7);
     border-left: 3px cyan solid;
     margin-top: 10%;
+    margin-bottom:10%;
     font-family: "Segoe UI Light",monospace;
-    max-height: 75vh;
 }
 .introduction{
     color:white;
     border: 2px mediumaquamarine ridge;
-    height: 75vh;
     width: 100%;
     display: inline-block;
     padding: 2px;
@@ -97,12 +95,10 @@ ul{
     list-style-image: url(../img/ul_icon.png);
     margin-left:20px;
     font-family: "Segoe UI Light",monospace;
-    max-height: 75vh;
 }
 .specs{
     color:white;
     border: 2px mediumaquamarine ridge;
-    height: 35vh;
     width: 100%;
     display: inline-block;
     padding: 20px;
@@ -113,7 +109,6 @@ ul{
     text-decoration: underline;
     text-shadow: 3px 0 limegreen;
     font-family: "Segoe UI Light",monospace;
-    max-height: 75vh;
 }
 table,th,td{
     border-bottom: limegreen 3px solid;
@@ -122,12 +117,10 @@ table,th,td{
     margin-right: auto;
     margin-left: auto;
     font-family: "Segoe UI Light",monospace;
-    max-height: 75vh;
 }
 .form{
     color:white;
     border: 2px mediumaquamarine ridge;
-    max-height: 75vh;
     width: 100%;
     display: inline-block;
     padding: 20px;
@@ -140,7 +133,6 @@ ol li{
 footer{
     color:grey;
     border: 2px white dashed;
-    height: 15vh;
     width: 100%;
     padding: 20px;
     padding-bottom: 30px;
